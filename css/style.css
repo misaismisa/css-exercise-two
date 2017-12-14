@@ -1,27 +1,62 @@
 body {
   background-color: #F4F8FF;
   color: #262428;
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.5em;
+  font-family: 'Avenir Next', Helvetica;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(90,90,90,1);
   float: left;
   position: fixed;
   width: 100%;
 }
 
+
 h1 {
-  font-size: 2em;
-  color: #3133A0;
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #F25300;
+  line-height: 2em;
+  margin-bottom: 6px;
+  margin-top: 0px;
 }
 
 h3 {
   font-size: 1.17em;
+  line-height: 1.17em;
+  margin-bottom: 16px;
 }
 
-p {
-  font-size: 1em; /**16px**/
-  line-height: 1.5em;
+figure {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 15px;
+}
+
+figcaption, .author {
+  font-style: italic;
+}
+
+.author {
+  font-size: 100%;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 85%;
+  display: inline-block;
+  margin-left: 110px;
+  margin-top: 50px;
+  padding-top: 60px;
+
 }
 
 .logo {
@@ -30,16 +65,23 @@ p {
 }
 
 .large-pic {
-  width: 100%;
+  width: 70%;
 }
 
 .medium-pic {
-  width: 70%;
+  width: 40%;
 }
 
 .left, .right {
   float: left;
   width: 50%;
+}
+
+.story-text {
+  font-size: 1.17em;
+  line-height: 1.4em;
+  max-width: 100%;
+  padding-top: 16px;
 }
 
 .right {
@@ -60,12 +102,11 @@ article {
   padding-top: 100px;
 }
 
-.container {
-  margin: 0 auto;
-  width: 50%;
+a {
+  text-decoration: none;
 }
 
-a:link { color:#0070BB; } /* unvisited */
+a:link { color:#FFFFFF; } /* unvisited */
 a:visited { color:#0070BA; } /* visited */
-a:hover { color:#0070BC; } /* mouse over */
+a:hover { color:#FF7A00; } /* mouse over */
 a:active { color:#0070BD; } /* selected */
